@@ -1,7 +1,7 @@
 
 # Notes App
 
-This API is built using Django Rest Framework and Postgres DB
+This API is built using Django, Django Rest Framework (DRF) and Postgres DB
 
 ## Features
 
@@ -21,7 +21,7 @@ This API is built using Django Rest Framework and Postgres DB
   Value : "Token <TOKEN STRING>"
 ```
 - If you are using `curl`
-```json
+```
 curl -X GET http://127.0.0.1:8000/api/notes/ -H 'Authorization: Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b'
 ```
 
@@ -55,7 +55,7 @@ curl -X GET http://127.0.0.1:8000/api/notes/ -H 'Authorization: Token 9944b09199
 
 >  GET /api/auth/logout/
 
-```json
+```
   curl -X GET http://127.0.0.1:8000/api/auth/logout -H 'Authorization: Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b'
 ```
 
@@ -144,4 +144,10 @@ curl -X GET http://127.0.0.1:8000/api/notes/ -H 'Authorization: Token 9944b09199
 ```bash
   python manage.py runserver
 ```
-CONGRATS
+
+
+
+## Support
+
+For support, email abhiimiishra@gmail.com 
+
